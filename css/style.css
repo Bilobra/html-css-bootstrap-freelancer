@@ -35,6 +35,25 @@
     background-color: var(--blue);
 }
 
-/* #container_small{
-    max-width: 680px;
-} */
+
+
+/* container custom */
+.container_small{
+    max-width: 330px;
+    margin: 0 auto;
+}
+
+/* media x container small */
+
+@media(min-width:540px){
+    .container_small{
+        max-width: 680px;
+        margin: 0 auto;
+    }
+}
+@media(min-width:992px){
+    .container_small{
+        max-width: 983px;
+        margin: 0 auto;
+    }
+}
