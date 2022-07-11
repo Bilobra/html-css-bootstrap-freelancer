@@ -1,0 +1,40 @@
+:root{
+    --blue: #2C3E50;
+    --azul: #1ABC9C;
+    --lightblue: #3A546D;
+}
+
+.main_header{
+    background-color: var(--blue);
+    padding: 40px 0;
+    color: white;
+}
+
+.header_title{
+    font-size: 1.25rem;
+}
+
+.hero_image{
+    background-color: var(--azul);
+}
+
+#grid_section{
+    background-color: cornflowerblue;
+    padding-bottom: 4.3rem;
+}
+
+#section_download{
+    background-color: var(--azul);
+}
+
+#section_info{
+    background-color: var(--lightblue);
+}
+
+#site_footer{
+    background-color: var(--blue);
+}
+
+/* #container_small{
+    max-width: 680px;
+} */
