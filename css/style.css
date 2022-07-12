@@ -4,11 +4,13 @@
     --lightblue: #3A546D;
 }
 
-.main_header{
+/* classi x colori */
+.bst_bg_var{
     background-color: var(--blue);
-    padding: 40px 0;
-    color: white;
 }
+
+
+
 
 .header_title{
     font-size: 1.25rem;
