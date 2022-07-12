@@ -9,6 +9,27 @@
     background-color: var(--blue);
 }
 
+/* classi padding */
+.p_8{
+    padding:5.3rem 0;
+}
+
+
+
+/* classe x linea subtitle */
+
+.lateral_line{
+    width: 165px;
+    height: 2px;
+    background-color: var(--blue);
+    margin: 30px;
+}
+
+/* border radius */
+.rounded_10{
+    border-radius: 1.2rem;
+}
+
 
 
 
@@ -20,10 +41,6 @@
     background-color: var(--azul);
 }
 
-#grid_section{
-    background-color: cornflowerblue;
-    padding-bottom: 4.3rem;
-}
 
 #section_download{
     background-color: var(--azul);
