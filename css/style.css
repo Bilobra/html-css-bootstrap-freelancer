@@ -13,7 +13,7 @@
 
 /* classi padding */
 .p_8{
-    padding:5.3rem 0;
+    padding:5.3rem;
 }
 
 /* classi text-color */
@@ -24,8 +24,8 @@
 /* classi varianti bottone */
 
 .bg_azul{
-    background-color: var(--azul);
-    color: white;
+    background-color: var(--azul) !important;
+    color: white !important;
 }
 
 
@@ -97,18 +97,13 @@
 .container_small{
     max-width: 330px;
     margin: 0 auto;
+    padding: 0 20px;
 }
 
 /* media x container small */
 
-@media(min-width:540px){
-    .container_small{
-        max-width: 680px;
-        margin: 0 auto;
-    }
 
-    
-}
+
 @media(min-width:992px){
     .container_small{
         max-width: 983px;
