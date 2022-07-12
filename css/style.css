@@ -1,3 +1,5 @@
+/* VARIABILI */
+
 :root{
     --blue: #2C3E50;
     --azul: #1ABC9C;
@@ -20,9 +22,12 @@
 
 .lateral_line{
     width: 165px;
-    height: 2px;
+    height: 3px;
     background-color: var(--blue);
     margin: 30px;
+}
+.lateral_white_line{
+    background-color: white;
 }
 
 /* border radius */
