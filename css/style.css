@@ -16,6 +16,33 @@
     padding:5.3rem 0;
 }
 
+/* classi text-color */
+.text_color_dark{
+    color: var(--blue);
+}
+
+/* classi varianti bottone */
+
+.bg_azul{
+    background-color: var(--azul);
+    color: white;
+}
+
+
+/* ICONS CIRCLE */
+.circle {
+    border-radius: 50%;
+    border: 0.125rem solid white;
+    width: 20px;
+    height: 20px;
+    padding: 30px;
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 5px;
+    
+}
 
 
 /* classe x linea subtitle */
